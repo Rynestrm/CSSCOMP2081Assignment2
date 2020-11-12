@@ -86,8 +86,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+  /* https://www.wfonts.com/font/harlow-solid-let */
+  font-family: "headingFont";
+  src: url("../fonts/HarlowSolidLETPlain.ttf") format("truetype");
+}
+h1,
+h2 {
+  font-family: "headingFont", Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
+}
 body {
-  background-image: linear-gradient(#ffffffb9, #ffffffb9),
+  /* background image from https://www.penguin.co.uk/articles/2020/july/hitchhikers-guide-galaxy-douglas-adams-42-facts.html */
+  background-image: linear-gradient(#ffffffc4, #ffffffc4),
     url(../img/background.jpg);
   background-position: top;
 }
@@ -116,6 +127,11 @@ nav > a > img {
 
 .aboutSection div > img {
   width: 100%;
+}
+
+.aboutSection h2,
+.reviewSection h2 {
+  cursor: pointer;
 }
 
 footer a {

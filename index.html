@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>COMP 2081 Assignment 2 | Judging a Book by it’s Cover</title>
-  <meta name="description" content="">
+  <meta name="description" content="COMP 2081 Assignemnt 2">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="">
@@ -55,16 +55,25 @@
     <h1 class="d-flex justify-content-center">The Hitchhiker's Guid to the Galaxy</h1>
     <section class="row topSection">
       <div class="col-6 pr-5">
+        <!--Synopsis from https://www.panmacmillan.com/authors/douglas-adams/the-hitchhikers-guide-to-the-galaxy/9780330508117 -->
         <h2>Synopsis</h2>
-        <p>One Thursday lunchtime the Earth gets unexpectedly demolished to make way for a new hyperspace bypass. It's the final straw for Arthur Dent, who has already had his house bulldozed that morning. But for Arthur, that is only the beginning . . .</p>
+        <p>
+          One Thursday lunchtime the Earth gets unexpectedly demolished to make way for a new hyperspace bypass. It's the final straw for Arthur Dent, who has already had his house bulldozed that morning. But for Arthur, that is only the beginning . . .
+        </p>
+        <p>
+          In the seconds before global obliteration, Arthur is plucked from the planet by his friend Ford Prefect – and together the pair venture out across the galaxy on the craziest, strangest road trip of all time!
+        </p>
+        <p>
+        Totally hilarious, The Hitchhiker's Guide to the Galaxy has been a radio show, TV show, stage play, comic book and film, and is and a work of utter comic genius from Douglas Adams.
+      </p>
       </div>
       <div class="col-6 pl-5">
         <img src="./img/BookCover.jpg" alt="Book Cover">
       </div>
     </section><!-- end of topSection-->
     <section class="pt-5 carouselSection">
-      <h2 class="d-flex justify-content-center">Other Books by the Author</h2>
-      <div class="row pt-5">
+      <h2 class="d-flex justify-content-center">Other Books in the Series</h2>
+      <div class="row pt-2 pb-4">
         <div class="col d-flex justify-content-center">
           <div id="carouselBookCovers" class="carousel slide" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
@@ -99,7 +108,7 @@
     <div id="accordion" roll="tablist">
       <section class="aboutSection card">
         <header class="card-header" roll="tab" id="about">
-          <h2 class="mb-0" data-target="#aboutCollapse" data-toggle="collapse" aria-expanded="false">About the Author</h2>
+          <h2 class="d-flex justify-content-center" data-target="#aboutCollapse" data-toggle="collapse" aria-expanded="false">About the Author</h2>
         </header>
         <div class="collapse" roll="tabpanel" id="aboutCollapse" data-parent="#accordion">
           <div class="row card-body">
@@ -124,12 +133,13 @@
       </section><!-- end of aboutSection-->
       <section class="reviewSection card">
         <header class="card-header" roll="tab" id="review">
-          <h2 class="mb-0" data-target="#reviewCollapse" data-toggle="collapse" aria-expanded="false">Reviews</h2>
+          <h2 class="d-flex justify-content-center" data-target="#reviewCollapse" data-toggle="collapse" aria-expanded="false">Reviews</h2>
         </header>
         <div class="collapse" roll="tabpanel" id="reviewCollapse" data-parent="#accordion">
           <div class="row card-body">
             <div class="col-6 pr-5">
               <div>
+                <!-- reviews from https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy -->
                 <h3>J.G Keely <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h3>
                 <p>
                   The universe is a joke.<br>
@@ -145,13 +155,13 @@
             </div>
             <div class="col-6 pr-5">
               <div>
-                <h2>Jon <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h2>
+                <h3>Jon <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h3>
                 <p>In my experience, readers either love Adams' books or quickly put them down. I, for example, quite literally worship the words Adams puts on the page, and have read the Hitchhiker's Trilogy so many times that I have large tracts of it memorized. But both my wife and father couldn't get past book one: the former because she found it too silly, and the latter because he found the writing to be more about "the author's personality" than plot and character.<br>
                 <br>
                 Whatever.</p>
               </div>
               <div>
-                <h2>Felicia <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h2>
+                <h3>Felicia <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h3>
                 <p>What can I say? I wish I had been in the movie, although it was bad and I guess I should be happy about NOT being in it.</p>
               </div>
             </div>
@@ -178,7 +188,6 @@
       </div>
     </div>
   </footer>
-  
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
